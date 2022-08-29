@@ -11,3 +11,128 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.mycard {
+  webkit-animation: fadeInFromNone 0.2 ease-out;
+  -moz-animation: fadeInFromNone 0.2s ease-out;
+  -o-animation: fadeInFromNone 0.2s ease-out;
+  animation: fadeInFromNone 0.2s ease-out;
+  padding: 3px;
+}
+.text-center {
+  text-align: center;
+}
+
+@-webkit-keyframes fadeInFromNone {
+  0% {
+      
+      opacity: 0;
+  }
+
+  
+
+  100% {
+      
+      opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeInFromNone {
+  0% {
+      
+      opacity: 0;
+  }
+
+ 
+
+  100% {
+      
+      opacity: 1;
+  }
+}
+
+@-o-keyframes fadeInFromNone {
+  0% {
+      
+      opacity: 0;
+  }
+
+  
+
+  100% {
+     
+      opacity: 1;
+  }
+}
+
+@keyframes fadeInFromNone {
+  0% {
+      
+      opacity: 0;
+  }
+
+  
+
+  100% {
+      
+      opacity: 1;
+  }
+}
+
+
+
+@-webkit-keyframes fadeOutFromNone {
+  0% {
+      
+    opacity: 1;
+}
+
+
+
+100% {
+    
+    opacity: 0;
+}
+}
+
+@-moz-keyframes fadeOutFromNone {
+  0% {
+      
+    opacity: 1;
+}
+
+
+
+100% {
+    
+    opacity: 0;
+}
+}
+
+@-o-keyframes fadeOutFromNone {
+  0% {
+      
+    opacity: 1;
+}
+
+
+
+100% {
+    
+    opacity: 0;
+}
+}
+
+@keyframes fadeOutFromNone {
+  0% {
+      
+      opacity: 1;
+  }
+
+  
+
+  100% {
+      
+      opacity: 0;
+  }
+}
