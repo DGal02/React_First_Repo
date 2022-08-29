@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/React_First_Repo/static/css/main.ce47b5b2.css",
+    "main.js": "/React_First_Repo/static/js/main.c0038e65.js",
+    "static/media/1_blue.png": "/React_First_Repo/static/media/1_blue.b59c64b7157d1ffeb1f5.png",
+    "static/media/1_red.png": "/React_First_Repo/static/media/1_red.f245fbc3c9e6efa1d1d4.png",
+    "static/media/1_yellow.png": "/React_First_Repo/static/media/1_yellow.e9aa30a4bba0e7cbc014.png",
+    "static/media/2_blue.png": "/React_First_Repo/static/media/2_blue.acc45192b36c2456a57a.png",
+    "static/media/2_red.png": "/React_First_Repo/static/media/2_red.ce422fcd6afce15e41b2.png",
+    "static/media/2_yellow.png": "/React_First_Repo/static/media/2_yellow.2eca7b504ea687775a5d.png",
+    "static/media/3_blue.png": "/React_First_Repo/static/media/3_blue.85b99362b153471275af.png",
+    "static/media/3_red.png": "/React_First_Repo/static/media/3_red.73a7d5074810fa0bdb43.png",
+    "static/media/3_yellow.png": "/React_First_Repo/static/media/3_yellow.c03e9104130016ad7c04.png",
+    "static/media/4_blue.png": "/React_First_Repo/static/media/4_blue.b267337aba28a0f9c06c.png",
+    "static/media/4_red.png": "/React_First_Repo/static/media/4_red.9b6f21bcde09261e4559.png",
+    "static/media/4_yellow.png": "/React_First_Repo/static/media/4_yellow.70a27871c43da67a8704.png",
+    "static/media/5_blue.png": "/React_First_Repo/static/media/5_blue.07e34450768816d99b37.png",
+    "static/media/5_red.png": "/React_First_Repo/static/media/5_red.6e141e95be07843a3182.png",
+    "static/media/5_yellow.png": "/React_First_Repo/static/media/5_yellow.15c5f66bd830b50ad57d.png",
+    "static/media/6_blue.png": "/React_First_Repo/static/media/6_blue.39bfefc3874a6c658906.png",
+    "static/media/6_red.png": "/React_First_Repo/static/media/6_red.97506e36b58b61429e26.png",
+    "static/media/6_yellow.png": "/React_First_Repo/static/media/6_yellow.2254175433a3c39b0edf.png",
+    "static/media/7_blue.png": "/React_First_Repo/static/media/7_blue.ae432c2dd7bded550236.png",
+    "static/media/7_red.png": "/React_First_Repo/static/media/7_red.836d939307eebb8ebcdb.png",
+    "static/media/7_yellow.png": "/React_First_Repo/static/media/7_yellow.f70a0cd1b776895e0de3.png",
+    "static/media/8_blue.png": "/React_First_Repo/static/media/8_blue.2a60c3237b9f4a86e673.png",
+    "static/media/8_red.png": "/React_First_Repo/static/media/8_red.f6347bb0d1f258cf2151.png",
+    "static/media/8_yellow.png": "/React_First_Repo/static/media/8_yellow.4781222be4d84c516f86.png",
+    "static/media/back.png": "/React_First_Repo/static/media/back.512782fe75df968ec6ae.png",
+    "index.html": "/React_First_Repo/index.html",
+    "main.ce47b5b2.css.map": "/React_First_Repo/static/css/main.ce47b5b2.css.map",
+    "main.c0038e65.js.map": "/React_First_Repo/static/js/main.c0038e65.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce47b5b2.css",
+    "static/js/main.c0038e65.js"
+  ]
+}
