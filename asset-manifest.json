@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/React_First_Repo/static/css/main.ce47b5b2.css",
-    "main.js": "/React_First_Repo/static/js/main.c0038e65.js",
+    "main.css": "/React_First_Repo/static/css/main.6cd9c379.css",
+    "main.js": "/React_First_Repo/static/js/main.b6a98c80.js",
+    "static/media/tlo.jpg": "/React_First_Repo/static/media/tlo.23971c6998348d0e3fd6.jpg",
     "static/media/1_blue.png": "/React_First_Repo/static/media/1_blue.b59c64b7157d1ffeb1f5.png",
     "static/media/1_red.png": "/React_First_Repo/static/media/1_red.f245fbc3c9e6efa1d1d4.png",
     "static/media/1_yellow.png": "/React_First_Repo/static/media/1_yellow.e9aa30a4bba0e7cbc014.png",
@@ -28,11 +29,11 @@
     "static/media/8_yellow.png": "/React_First_Repo/static/media/8_yellow.4781222be4d84c516f86.png",
     "static/media/back.png": "/React_First_Repo/static/media/back.512782fe75df968ec6ae.png",
     "index.html": "/React_First_Repo/index.html",
-    "main.ce47b5b2.css.map": "/React_First_Repo/static/css/main.ce47b5b2.css.map",
-    "main.c0038e65.js.map": "/React_First_Repo/static/js/main.c0038e65.js.map"
+    "main.6cd9c379.css.map": "/React_First_Repo/static/css/main.6cd9c379.css.map",
+    "main.b6a98c80.js.map": "/React_First_Repo/static/js/main.b6a98c80.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce47b5b2.css",
-    "static/js/main.c0038e65.js"
+    "static/css/main.6cd9c379.css",
+    "static/js/main.b6a98c80.js"
   ]
 }
