@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #222;
+  color: #eee !important;
+  background: #121212 !important;
 }
 
 code {
@@ -19,63 +22,75 @@ code {
   animation: fadeInFromNone 0.2s ease-out;
   padding: 3px;
 }
+
 .text-center {
   text-align: center;
 }
 
+#board {
+  background-image: url(./images/tlo.jpg);
+  margin-top: 50px;
+  padding: 10px;
+  max-width: 500px;
+  box-shadow: 0 0 5px 5px red;
+
+}
+
+
+
 @-webkit-keyframes fadeInFromNone {
   0% {
-      
-      opacity: 0;
+
+    opacity: 0;
   }
 
-  
+
 
   100% {
-      
-      opacity: 1;
+
+    opacity: 1;
   }
 }
 
 @-moz-keyframes fadeInFromNone {
   0% {
-      
-      opacity: 0;
+
+    opacity: 0;
   }
 
- 
+
 
   100% {
-      
-      opacity: 1;
+
+    opacity: 1;
   }
 }
 
 @-o-keyframes fadeInFromNone {
   0% {
-      
-      opacity: 0;
+
+    opacity: 0;
   }
 
-  
+
 
   100% {
-     
-      opacity: 1;
+
+    opacity: 1;
   }
 }
 
 @keyframes fadeInFromNone {
   0% {
-      
-      opacity: 0;
+
+    opacity: 0;
   }
 
-  
+
 
   100% {
-      
-      opacity: 1;
+
+    opacity: 1;
   }
 }
 
@@ -83,56 +98,56 @@ code {
 
 @-webkit-keyframes fadeOutFromNone {
   0% {
-      
+
     opacity: 1;
-}
+  }
 
 
 
-100% {
-    
+  100% {
+
     opacity: 0;
-}
+  }
 }
 
 @-moz-keyframes fadeOutFromNone {
   0% {
-      
+
     opacity: 1;
-}
+  }
 
 
 
-100% {
-    
+  100% {
+
     opacity: 0;
-}
+  }
 }
 
 @-o-keyframes fadeOutFromNone {
   0% {
-      
+
     opacity: 1;
-}
+  }
 
 
 
-100% {
-    
+  100% {
+
     opacity: 0;
-}
+  }
 }
 
 @keyframes fadeOutFromNone {
   0% {
-      
-      opacity: 1;
+
+    opacity: 1;
   }
 
-  
+
 
   100% {
-      
-      opacity: 0;
+
+    opacity: 0;
   }
 }

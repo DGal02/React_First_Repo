@@ -25,7 +25,20 @@ class Board extends React.Component {
     this.handleRestartClick = this.handleRestartClick.bind(this);
   }
 
+  _handleKeyDown = (event) => {
+    if (event.key === 'r' || event.key === 'R') {
+      this.handleRestartClick();
+    }
+  }
 
+  componentDidMount() {
+    document.addEventListener("keydown", this._handleKeyDown);
+  }
+
+
+  componentWillUnmount() {
+    document.removeEventListener("keydown", this._handleKeyDown);
+  }
 
   handleClick(color, number, show) {
     setTimeout(() => {
@@ -58,11 +71,14 @@ class Board extends React.Component {
   render() {
     return (
       <div className='mx-auto text-center'>
-      <img style={{display:'none'}} alt='placeholder' src={require('./images/back.png')} />
-        <LineCards onCardClick={this.handleClick} color={this.state.line1.color} cards={this.state.line1.cards} />
-        <LineCards onCardClick={this.handleClick} color={this.state.line2.color} cards={this.state.line2.cards} />
-        <LineCards onCardClick={this.handleClick} color={this.state.line3.color} cards={this.state.line3.cards} />
-        <button onClick={this.handleRestartClick}>Restart</button>
+        <img style={{ display: 'none' }} alt='placeholder' src={require('./images/back.png')} />
+        <div id="board" className='container'>
+          <LineCards onCardClick={this.handleClick} color={this.state.line1.color} cards={this.state.line1.cards} />
+          <LineCards onCardClick={this.handleClick} color={this.state.line2.color} cards={this.state.line2.cards} />
+          <LineCards onCardClick={this.handleClick} color={this.state.line3.color} cards={this.state.line3.cards} />
+        </div>
+        <button type="button" className='mt-4 btn btn-primary' onClick={this.handleRestartClick}>Restart</button>
+        <h2 className='mt-2'>Press 'r' to restart!</h2>
       </div>
     );
   }
@@ -78,8 +94,6 @@ class LineCards extends React.Component {
     });
     return (
       <div className='center-block text-center'>{items}</div>
-
-
     );
 
   }
@@ -92,7 +106,7 @@ class Card extends React.Component {
 
 
     return (
-      <img  width={'51px'} height={'67px'} onClick={(e) => { this.props.onCardClick(this.props.color, this.props.number, this.props.show); e.target.style.opacity = 0; e.target.style.animation = "fadeOutFromNone 0.2s ease-out" }} alt={this.props.color + this.props.number} className='mycard' src={this.props.show ? require('./images/' + this.props.number.toString() + '_' + this.props.color + '.png') : require('./images/back.png')} />
+      <img width={'51px'} height={'67px'} onClick={(e) => { this.props.onCardClick(this.props.color, this.props.number, this.props.show); e.target.style.opacity = 0; e.target.style.animation = "fadeOutFromNone 0.2s ease-out" }} alt={this.props.color + this.props.number} className='mycard' src={this.props.show ? require('./images/' + this.props.number.toString() + '_' + this.props.color + '.png') : require('./images/back.png')} />
     );
   }
 }
